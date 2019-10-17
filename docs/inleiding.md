@@ -33,7 +33,7 @@ Het uiteindelijke product moet een interactieve web-applicatie worden die data o
 ### Deliverables vanuit CMD
 
 - Leren werken met een JS-library of Framework
-- Gebruik maken met een Library of Framework
+- Gebruik maken van een Library of Framework
 - Lezen van de documentatie van deze libraries
 - Het schrijven van een wiki en readme
 - Manipuleren van elementen

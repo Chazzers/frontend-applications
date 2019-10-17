@@ -5,10 +5,17 @@
 | Toeristen die geïnteresseerd zijn in culturele maskers | Maskers uit Indonesië | Toeristen kunnen hun huidige locatie of specifieke locaties invoeren op de website. Hierna worden afbeeldingen en het verhaal achter maskers getoond die op de ingevoerde locatie zijn gevonden. | Filteren op locatie |
 | Gamers die met het uiterlijk van Link (van de game: Zelda) willen spelen | Link's (Majorah's Mask) journey through Indonesia | Er kunnen maskers opgedaan worden bij Link uit verschillende regio's uit Indonesië. Er kan op deze maskers gestemd worden en de meest populaire maskers uit regios zullen vervolgens deze regio's presenteren. | Filteren op locatie en maskers |
 
+Na twee concepten te hebben bedacht had ik gekozen voor het concept "Link's (Majorah's Mask) journey through Indonesia".
+
+## Concept pitch
+
+Op de eerste woensdag na de kick-off van het project kwam de opdrachtgever langs om concepten te beoordelen en feedback en tips te geven. Aandachtspunten voor mijn concept waren:
+
+- Denk eraan dat er twee verschillende soorten maskers zijn binnen onze collectie, namelijk: maskers die je over je hoofd gedragen worden (3D) en maskers die voor het gezicht worden gehouden (2D).
 
 ## Link's Mask journey through Indonesia
 
-Benodigdheden:
+Technische benodigdheden:
 
 * Een background-removal tool
 * Afbeeldingen uit de database
