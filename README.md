@@ -1,54 +1,67 @@
 # frontend-applications
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+## Link's mask journey through Indonesia
 
-## Prerequisites
+Link (Legend of Zelda) wilde naast zijn masker: "Majorah's Mask" ook een aantal andere maskers uitproberen. Met deze web-applicatie kun je bij Link een aantal maskers opdoen uit Indonesië. Vervolgens kunnen deze maskers geliket worden. De maskers met de meeste likes zullen de uitstraling per regio vormen van Indonesië.
+
+## Benodigdheden
 
 You will need the following things properly installed on your computer.
 
+Je zult de volgende programma's en pakketjes geïnstalleerd moeten hebben op jouw computer.
+
 * [Git](https://git-scm.com/)
-* [Node.js](https://nodejs.org/) (with npm)
+* [Node.js](https://nodejs.org/) (met npm)
 * [Ember CLI](https://ember-cli.com/)
 * [Google Chrome](https://google.com/chrome/)
 
 ## Installation
 
-* `git clone <repository-url>` this repository
+Open de terminal en type het volgende:
+
+* `git clone https://github.com/Chazzers/frontend-applications`
 * `cd frontend-applications`
 * `npm install`
 
 ## Running / Development
 
+Om het programma uit te voeren type je het volgende in de terminal:
+
 * `ember serve`
-* Visit your app at [http://localhost:4200](http://localhost:4200).
-* Visit your tests at [http://localhost:4200/tests](http://localhost:4200/tests).
+* De app kan bezocht worden op: [http://localhost:4200](http://localhost:4200).
+* De tests kunnen bezocht worden op: [http://localhost:4200/tests](http://localhost:4200/tests).
 
-### Code Generators
+### Code Generatoren
 
-Make use of the many generators for code, try `ember help generate` for more details
+Maak gebruik van de vele code generatoren van de ember-cli. Dit kan gedaan worden door de code in de terminal in te typen: `ember help generate`.
 
-### Running Tests
+### Tests uitvoeren
 
 * `ember test`
 * `ember test --server`
 
-### Linting
+### Linten
+
+Om fouten in de code op te sporen wordt gebruik gemaakt van een Linter, namelijk: eslint. Om hiervan gebruik te maken kan het volgende getypt worden in de terminal.
 
 * `npm run lint:hbs`
 * `npm run lint:js`
 * `npm run lint:js -- --fix`
 
-### Building
+### Bouwen
 
-* `ember build` (development)
-* `ember build --environment production` (production)
+Om de website klaar te maken voor gebruik kan gebruik gemaakt worden van de commando's:
+
+* `ember build` (ontwikkelingsomgeving)
+* `ember build --environment production` (productie)
 
 ### Deploying
 
-Specify what it takes to deploy your app.
+Om de app te deployen kun je gebruik maken van Github pages of Heroku.
 
-## Further Reading / Useful Links
+Om Heroku te gebruiken kun je de instructies volgen op deze website: [https://www.heroku.com/emberjs](https://www.heroku.com/emberjs)
+
+## Handige links
 
 * [ember.js](https://emberjs.com/)
 * [ember-cli](https://ember-cli.com/)
