@@ -2,7 +2,7 @@
 
 ## Link's mask journey through Indonesia
 
-Link (Legend of Zelda) wilde naast zijn masker: "Majorah's Mask" ook een aantal andere maskers uitproberen. Met deze web-applicatie kun je bij Link een aantal maskers opdoen uit Indonesië. Vervolgens kunnen deze maskers geliket worden. De maskers met de meeste likes zullen de uitstraling per regio vormen van Indonesië.
+Link (Legend of Zelda) wilde naast zijn masker: "Majorah's Mask" ook een aantal andere maskers uitproberen. Met deze web-applicatie kun je bij Link een aantal maskers opdoen uit Indonesië. Vervolgens kunnen deze maskers geliket worden. De maskers met de meeste likes zullen de uitstraling per regio van Indonesië vormen.
 
 ## Benodigdheden
 
@@ -53,7 +53,7 @@ Om fouten in de code op te sporen wordt gebruik gemaakt van een Linter, namelijk
 Om de website klaar te maken voor gebruik kan gebruik gemaakt worden van de commando's:
 
 * `ember build` (ontwikkelingsomgeving)
-* `ember build --environment production` (productie)
+* `ember build --environment production` (productie-omgeving)
 
 ### Deploying
 
