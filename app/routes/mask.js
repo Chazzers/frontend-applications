@@ -34,7 +34,6 @@ export default Route.extend({
 		return fetch(connectionString)
 			.then(res => res.json())
 			.then(json => {
-				console.log(json);
 
 				let { bindings } = json.results;
 
@@ -48,9 +47,8 @@ export default Route.extend({
 					item.type = item.type.value;
 					item.picture = item.picture.value;
 				}
-				console.log(bindings);
 				return bindings;
 			});
 	}
-	
+
 });
