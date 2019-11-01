@@ -1,0 +1,18 @@
+<!-- {{link-placeholder setMask=(action 'setMask')}} -->
+<LinkPlaceholder @placeImage={{this.setMask}} />
+<section class="mask-list-container">
+	<h2>Maskers</h2>
+	<div class="mask-list">
+		{{#each @masks as |mask|}}
+			<button class="mask-item" {{action "setMask" mask}}>
+				<div class="mask-img">
+					<p>{{mask.picture}}</p>
+					<!-- <img src="{{mask.picture}}" alt="{{mask.title}}"> -->
+				</div>
+				<div class="mask-content">
+					<h3>{{mask.title}}</h3>
+				</div>
+			</button>
+		{{/each}}
+	</div>
+</section>

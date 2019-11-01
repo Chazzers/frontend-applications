@@ -1,0 +1,30 @@
+.link-mask-container {
+  height: 30vh;
+  position: relative;
+  display: flex;
+  justify-content: center;
+
+  .mask-active-container {
+    position: relative;
+    // background-color: grey;
+    height: 10vw;
+    width: 10vw;
+    z-index: 1;
+
+    .mask-active {
+      position: absolute;
+      z-index: 100;
+      height: 100%;
+      width: 100%;
+    }
+  }
+
+  .link-container {
+    // position: absolute;
+    height: 100%;
+
+    .link {
+      height: 100%;
+    }
+  }
+}

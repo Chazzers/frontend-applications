@@ -36,9 +36,10 @@ export default Route.extend({
 			.then(json => {
 				console.log(json);
 
-				let bindings = json.results.bindings;
+				let { bindings } = json.results;
 
 				for (let i = 0; i < bindings.length; i++) {
+
 					let item = bindings[i];
 
 					item.cho = item.cho.value;
@@ -47,10 +48,9 @@ export default Route.extend({
 					item.type = item.type.value;
 					item.picture = item.picture.value;
 				}
-
 				console.log(bindings);
-
 				return bindings;
 			});
 	}
+	
 });
