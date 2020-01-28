@@ -2,6 +2,7 @@
 	<h2>Link</h2>
 	<div class="link-mask-container">
 		<div class="mask-active-container">
+			<!-- if a mask has been clicked and thus has an url, place this url in the img src -->
 			{{#if source }}
 			<img src={{ source }} alt="">
 			{{/if}}
@@ -14,6 +15,7 @@
 <section class="mask-list-container">
 	<h2>Maskers</h2>
 	<div class="mask-list">
+		<!-- Loop that generates all the mask-items and links to specific detail page of the mask and add the click function on the button element to get the picture property and place it on link's face -->
 		{{#each @masks as |mask|}}
 			<div class="">
 				<button class="mask-item" onclick={{action "callChildFunction" mask}}>
