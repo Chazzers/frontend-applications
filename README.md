@@ -75,6 +75,8 @@ De data wordt opgeslagen in een store (data wordt gecached) door middel van de v
 this.store.push({data: bindings});
 ```
 
+Wil je hier meer over weten, [klik hier](https://github.com/Chazzers/frontend-applications/wiki/4.-Data-fetchen)
+
 ## Benodigdheden
 
 Je zult de volgende programma's en pakketjes moeten installeren op jouw computer.
