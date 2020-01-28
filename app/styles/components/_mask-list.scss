@@ -2,11 +2,59 @@
   .mask-list {
     display: flex;
     overflow: scroll;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 100%;
 
     .mask-item {
-      .mask-img {
+      height: 20em;
+      width: 20em;
+      margin-right: 1em;
+      display: flex;
+      flex-shrink: 0;
+      flex-direction: column;
+      border: none;
+      background-color: $tertiary-color;
+      border-radius: 8px;
+      padding: 0;
+      overflow: hidden;
 
+      .mask-img {
+        height: 15em;
+        width: 100%;
+        background-color: black;
+
+        img {
+          width: 100%;
+          height: 100%;
+          object-fit: contain;
+        }
       }
+
+      .mask-content {
+        padding: 1em;
+
+        h3 {
+          margin: 0;
+        }
+      }
+    }
+  }
+}
+
+.mask-detail {
+  display: flex;
+  flex-direction: column;
+
+  .mask-detail-container {
+    width: 50em;
+    height: 50em;
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
     }
   }
 }

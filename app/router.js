@@ -9,7 +9,9 @@ const Router = EmberRouter.extend({
 Router.map(function() {
   this.route('about');
   this.route('contact');
-  this.route('mask');
+  this.route('masks', function() {
+      this.route('detail', {path: "/:id"});
+  });
 });
 
 export default Router;

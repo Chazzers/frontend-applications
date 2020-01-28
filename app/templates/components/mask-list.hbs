@@ -1,18 +1,33 @@
-<!-- {{link-placeholder setMask=(action 'setMask')}} -->
-<LinkPlaceholder @placeImage={{this.setMask}} />
+<section class="link-placeholder">
+	<h2>Link</h2>
+	<div class="link-mask-container">
+		<div class="mask-active-container">
+			{{#if source }}
+			<img src={{ source }} alt="">
+			{{/if}}
+		</div>
+		<div class="link-container">
+			<img class="link" src="assets/images/link-model.png" alt="">
+		</div>
+	</div>
+</section>
 <section class="mask-list-container">
 	<h2>Maskers</h2>
 	<div class="mask-list">
 		{{#each @masks as |mask|}}
-			<button class="mask-item" {{action "setMask" mask}}>
-				<div class="mask-img">
-					<p>{{mask.picture}}</p>
-					<!-- <img src="{{mask.picture}}" alt="{{mask.title}}"> -->
-				</div>
-				<div class="mask-content">
-					<h3>{{mask.title}}</h3>
-				</div>
-			</button>
+			<div class="">
+				<button class="mask-item" onclick={{action "callChildFunction" mask}}>
+					<div class="mask-img">
+						<img src={{mask.picture}} alt={{mask.title}}>
+					</div>
+					<div class="mask-content">
+						<h3>{{mask.title}}</h3>
+					</div>
+				</button>
+				<p>
+					{{#link-to "masks.detail" mask class=mask.id}}Lees meer...{{/link-to}}
+				</p>
+			</div>
 		{{/each}}
 	</div>
 </section>

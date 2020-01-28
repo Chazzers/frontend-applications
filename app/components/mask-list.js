@@ -2,9 +2,10 @@ import Component from '@ember/component';
 import { set } from '@ember/object';
 
 export default Component.extend({
+	source: '',
 	actions: {
-		setMask(mask) {
-			return set(this, 'someData', mask.picture);
+		callChildFunction(mask) {
+			set(this, 'source', mask.picture);
 		}
-	}
+}
 });
