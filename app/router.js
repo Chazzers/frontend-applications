@@ -7,8 +7,6 @@ const Router = EmberRouter.extend({
 });
 
 Router.map(function() {
-  this.route('about');
-  this.route('contact');
   this.route('masks', function() {
       this.route('detail', {path: "/:id"});
   });
