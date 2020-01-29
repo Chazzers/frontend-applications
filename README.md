@@ -86,6 +86,10 @@ Je zult de volgende programma's en pakketjes moeten installeren op jouw computer
 * [Ember CLI](https://ember-cli.com/)
 * [Google Chrome](https://google.com/chrome/)
 
+## Wiki
+
+Wil je meer over het proces achter deze applicatie weten? [Klik hier!](https://github.com/Chazzers/frontend-applications/wiki)
+
 ## Installatie
 
 Open de terminal en type het volgende:
